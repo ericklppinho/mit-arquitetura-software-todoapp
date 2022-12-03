@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Web.Mvc", "ToDo.Web.Mvc\ToDo.Web.Mvc.csproj", "{19406C75-D074-4C10-BF36-269650F86E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Domain", "ToDo.Domain\ToDo.Domain.csproj", "{3F7FB6F1-B3F9-49C7-9825-B3BD2D55B108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Infra.Data", "ToDo.Infra.Data\ToDo.Infra.Data.csproj", "{C8017A17-E635-45F7-A895-68019B0957DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19406C75-D074-4C10-BF36-269650F86E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19406C75-D074-4C10-BF36-269650F86E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19406C75-D074-4C10-BF36-269650F86E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19406C75-D074-4C10-BF36-269650F86E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7FB6F1-B3F9-49C7-9825-B3BD2D55B108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7FB6F1-B3F9-49C7-9825-B3BD2D55B108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7FB6F1-B3F9-49C7-9825-B3BD2D55B108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7FB6F1-B3F9-49C7-9825-B3BD2D55B108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8017A17-E635-45F7-A895-68019B0957DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8017A17-E635-45F7-A895-68019B0957DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8017A17-E635-45F7-A895-68019B0957DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8017A17-E635-45F7-A895-68019B0957DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA0BF639-CE05-4A2F-A712-59CDE35D9642}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

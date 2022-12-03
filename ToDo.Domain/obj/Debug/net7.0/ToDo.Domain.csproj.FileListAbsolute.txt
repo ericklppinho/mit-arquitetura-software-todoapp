@@ -1,0 +1,12 @@
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/bin/Debug/net7.0/ToDo.Domain.deps.json
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/bin/Debug/net7.0/ToDo.Domain.dll
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/bin/Debug/net7.0/ToDo.Domain.pdb
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/ToDo.Domain.csproj.AssemblyReference.cache
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/ToDo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/ToDo.Domain.AssemblyInfoInputs.cache
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/ToDo.Domain.AssemblyInfo.cs
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/ToDo.Domain.csproj.CoreCompileInputs.cache
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/ToDo.Domain.dll
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/refint/ToDo.Domain.dll
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/ToDo.Domain.pdb
+/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/Debug/net7.0/ref/ToDo.Domain.dll

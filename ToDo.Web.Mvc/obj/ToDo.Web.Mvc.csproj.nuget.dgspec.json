@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ericklppinho/Workspace/ToDo/ToDo.Web.Mvc/ToDo.Web.Mvc.csproj": {}
+  },
+  "projects": {
+    "/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/ToDo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/ToDo.Domain.csproj",
+        "projectName": "ToDo.Domain",
+        "projectPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/ToDo.Domain.csproj",
+        "packagesPath": "/Users/ericklppinho/.nuget/packages/",
+        "outputPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ericklppinho/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/ToDo.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/ToDo.Infra.Data.csproj",
+        "projectName": "ToDo.Infra.Data",
+        "projectPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/ToDo.Infra.Data.csproj",
+        "packagesPath": "/Users/ericklppinho/.nuget/packages/",
+        "outputPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ericklppinho/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/ToDo.Domain.csproj": {
+                "projectPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/ToDo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ericklppinho/Workspace/ToDo/ToDo.Web.Mvc/ToDo.Web.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ericklppinho/Workspace/ToDo/ToDo.Web.Mvc/ToDo.Web.Mvc.csproj",
+        "projectName": "ToDo.Web.Mvc",
+        "projectPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Web.Mvc/ToDo.Web.Mvc.csproj",
+        "packagesPath": "/Users/ericklppinho/.nuget/packages/",
+        "outputPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Web.Mvc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ericklppinho/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/ToDo.Domain.csproj": {
+                "projectPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Domain/ToDo.Domain.csproj"
+              },
+              "/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/ToDo.Infra.Data.csproj": {
+                "projectPath": "/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/ToDo.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

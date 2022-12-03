@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ToDo.Domain.Entities.Item>
+
+@{
+    ViewData["Title"] = "ToDo List";
+}
+<form asp-action="Create">
+    <input type="submit" value="Criar item" class="btn btn-primary" />
+</form>
+
+<table id="item" class="table">
+    <thead>
+        <tr>
+            <th>Descrição</th>
+            <th>Data de criação</th>
+            <th>Done</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Description</td>
+                <td>@item.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                <td><input type="checkbox" disabled @(item.Done ? "checked" : "") action="" /></td>
+                <td>
+                    <a href=@("/Item/Update/"+item.Id)>
+                        <input type="button" value="Alterar item" class="btn btn-primary" />
+                    </a>
+                </td>
+                <td>
+                    <form asp-action="Delete">
+                        <input type="hidden"  name="id" asp-for="@item.Id" />
+                        <input type="submit" value="Excluir item" class="btn btn-primary" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

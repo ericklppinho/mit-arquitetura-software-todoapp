@@ -1,0 +1,15 @@
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ToDo.Infra.Data.csproj.AssemblyReference.cache
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ToDo.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ToDo.Infra.Data.AssemblyInfoInputs.cache
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ToDo.Infra.Data.AssemblyInfo.cs
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ToDo.Infra.Data.csproj.CoreCompileInputs.cache
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/bin/Debug/net7.0/ToDo.Infra.Data.deps.json
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/bin/Debug/net7.0/ToDo.Infra.Data.dll
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/bin/Debug/net7.0/ToDo.Infra.Data.pdb
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/bin/Debug/net7.0/ToDo.Domain.dll
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/bin/Debug/net7.0/ToDo.Domain.pdb
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ToDo.Infra.Data.csproj.CopyComplete
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ToDo.Infra.Data.dll
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/refint/ToDo.Infra.Data.dll
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ToDo.Infra.Data.pdb
+/Users/ericklppinho/Workspace/ToDo/ToDo.Infra.Data/obj/Debug/net7.0/ref/ToDo.Infra.Data.dll
